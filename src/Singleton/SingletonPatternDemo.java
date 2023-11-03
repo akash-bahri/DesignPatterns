@@ -9,7 +9,6 @@ package Singleton;
  * @author Akash Bahri
  */
 public class SingletonPatternDemo {
-
     /**
      * @param args the command line arguments
      */
@@ -17,5 +16,4 @@ public class SingletonPatternDemo {
         SingleObject object = SingleObject.getInstance();
         object.showMessage();
     }
-    
 }

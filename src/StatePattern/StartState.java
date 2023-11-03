@@ -8,13 +8,13 @@ package StatePattern;
  *
  * @author Akash Bahri
  */
-public class StartState implements State{
-    public void doAction(Context context){
+public class StartState implements State {
+    public void doAction(Context context) {
         System.out.println("Player is in start state");
         context.setState(this);
     }
-    public String toString(){
+
+    public String toString() {
         return "Start State";
     }
-    
 }

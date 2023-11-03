@@ -10,13 +10,16 @@ package StatePattern;
  */
 public class Context {
     private State state;
-    public Context(){
-        state=null;
+
+    public Context() {
+        state = null;
     }
-    public void setState(State state){
-        this.state=state;
+
+    public void setState(State state) {
+        this.state = state;
     }
-    public State getState(){
+
+    public State getState() {
         return state;
     }
 }

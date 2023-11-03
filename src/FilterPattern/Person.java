@@ -10,19 +10,16 @@ package FilterPattern;
  */
 public class Person {
     private String name;
-
     public String getName() {
         return name;
     }
 
     private String gender;
-
     public String getGender() {
         return gender;
     }
 
     private String maritalStatus;
-
     public String getMaritalStatus() {
         return maritalStatus;
     }

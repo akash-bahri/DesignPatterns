@@ -12,10 +12,11 @@ import java.util.List;
  * @author Akash Bahri
  */
 public class CriteriaSingle implements Criteria {
-    public List<Person> meetCriteria(List<Person>persons){
+    public List<Person> meetCriteria(List<Person> persons) {
         List<Person> malePersons = new ArrayList<Person>();
-        for(Person person:persons){
-            if(person.getMaritalStatus().equalsIgnoreCase("SINGLE")){
+        
+        for (Person person : persons) {
+            if (person.getMaritalStatus().equalsIgnoreCase("SINGLE")) {
                 malePersons.add(person);
             }
         }
